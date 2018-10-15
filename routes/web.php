@@ -15,8 +15,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
 Route::get('/newtest', function () {
     return view('welcome');
 });
 
 //testing
+=======
+Route::get('/test', function () {
+    return view('welcome');
+});
+>>>>>>> parent of 9394a99... Update routes/web.php
